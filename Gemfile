@@ -44,6 +44,14 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+# faker
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
+# bootstrap
+gem 'bootstrap', '~> 5.2', '>= 5.2.1'
+# fontawesome
+gem "font-awesome-sass", "~> 6.2.0"
+# simple form
+gem "simple_form", github: "heartcombo/simple_form"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
